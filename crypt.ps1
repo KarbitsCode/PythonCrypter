@@ -2,7 +2,7 @@ param([string]$path)
 
 if (-not $path) {
     Write-Host "[-] Error: Please provide the Python file path using the -path parameter." -ForegroundColor Red
-    exit
+    Start-Sleep 10
 }
 
 $pyscr = Get-Content -Path $path -Raw
