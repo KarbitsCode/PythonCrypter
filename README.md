@@ -4,7 +4,7 @@ Python Script Crypter
 Description
 -----------
 
-- This Python script crypter provides a way to obfuscate your Python scripts, making them undetected and compatible with platforms like VirusTotal. The tool encodes the script using base64, ensuring an additional layer of security. The generated script remains executable and can be decoded dynamically during execution.
+- This Python script crypter provides a way to obfuscate your Python scripts, making them undetected from File Scanners like VirusTotal. The tool encodes the script using base64, ensuring an additional layer of security. The generated script remains executable and can be decoded dynamically during execution.
 * * *
 
 
