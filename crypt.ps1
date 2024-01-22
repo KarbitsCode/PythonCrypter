@@ -1,7 +1,7 @@
 param([string]$path)
 
 if (-not $path) {
-    Write-Host "[-] Error: Please provide the Python file path using the -path parameter."
+    Write-Host "[-] Error: Please provide the Python file path using the -path parameter." -ForegroundColor Red
     exit
 }
 
