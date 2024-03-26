@@ -1,2 +1,2 @@
 @echo off
-powershell -executionpolicy bypass -file "%~dp0crypt.ps1" %*
+powershell -executionpolicy bypass -file "%~dpn0.ps1" %*
